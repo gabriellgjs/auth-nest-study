@@ -1,5 +1,4 @@
 import { Controller, Get } from '@nestjs/common';
-import { get } from 'http';
 import { AppService } from './app.service';
 import { CurrentUser } from './auth/decorators/current-user.decorator';
 import { IsPublic } from './auth/decorators/is-public.decorator';
